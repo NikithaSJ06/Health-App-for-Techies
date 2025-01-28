@@ -13,3 +13,8 @@
 '''
 
 # docs abstract link: https://docs.google.com/document/d/1He-idULRvf_YrWvpkGUdLUMlkRTlhvMeQfVtzdt2f64/edit?usp=sharing
+
+
+#Datasets
+https://www.kaggle.com/datasets/unidatapro/phone-and-webcam-video 
+https://www.kaggle.com/datasets/arashnic/fitbit
