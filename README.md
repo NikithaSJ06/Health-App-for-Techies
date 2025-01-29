@@ -9,7 +9,7 @@
 6. Diabetes Prediction Using Machine Learning Techniques: https://ieeexplore.ieee.org/document/10714699
 7. https://github.com/itakurah/Sitting-Posture-Detection-YOLOv5
 8. most useful: https://www.youtube.com/watch?v=OukxehGS9dQ
-
+9.posture detection and correction using ml and dl https://ieeexplore.ieee.org/document/10079726
 '''
 
 # docs abstract link: https://docs.google.com/document/d/1He-idULRvf_YrWvpkGUdLUMlkRTlhvMeQfVtzdt2f64/edit?usp=sharing
