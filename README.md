@@ -12,6 +12,7 @@
 9.posture detection and correction using ml and dl https://ieeexplore.ieee.org/document/10079726
 10.Classification and Disease Prediction of Heart Rate Signals Based on Random Forest  https://ieeexplore.ieee.org/document/10709083
 '''
+# project phases: https://docs.google.com/document/d/106SEq-HIb3afYkRiXSunx8daqEXWS4E9MM7pVOVFn1M/edit?usp=sharing
 
 # docs abstract link: https://docs.google.com/document/d/1He-idULRvf_YrWvpkGUdLUMlkRTlhvMeQfVtzdt2f64/edit?usp=sharing
 
