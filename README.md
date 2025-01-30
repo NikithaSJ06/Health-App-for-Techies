@@ -13,7 +13,7 @@
 10.Classification and Disease Prediction of Heart Rate Signals Based on Random Forest  https://ieeexplore.ieee.org/document/10709083
 '''
 # project phases: https://docs.google.com/document/d/106SEq-HIb3afYkRiXSunx8daqEXWS4E9MM7pVOVFn1M/edit?usp=sharing
-
+# further scope: https://docs.google.com/document/d/1IDZkG5064P8EQc36vqi07I-eNG7TGG6esziIWKHzP20/edit?usp=sharing
 # docs abstract link: https://docs.google.com/document/d/1He-idULRvf_YrWvpkGUdLUMlkRTlhvMeQfVtzdt2f64/edit?usp=sharing
 
 
