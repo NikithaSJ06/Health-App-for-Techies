@@ -15,7 +15,7 @@
 # project phases: https://docs.google.com/document/d/106SEq-HIb3afYkRiXSunx8daqEXWS4E9MM7pVOVFn1M/edit?usp=sharing
 # further scope: https://docs.google.com/document/d/1IDZkG5064P8EQc36vqi07I-eNG7TGG6esziIWKHzP20/edit?usp=sharing
 # docs abstract link: https://docs.google.com/document/d/1He-idULRvf_YrWvpkGUdLUMlkRTlhvMeQfVtzdt2f64/edit?usp=sharing
-
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6118863/?utm_source=chatgpt.com  Data used to identify blink rate changes
 
 #Datasets
 https://www.kaggle.com/datasets/unidatapro/phone-and-webcam-video 
