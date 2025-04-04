@@ -20,3 +20,65 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC6118863/?utm_source=chatgpt.com  Data u
 #Datasets
 https://www.kaggle.com/datasets/unidatapro/phone-and-webcam-video 
 https://www.kaggle.com/datasets/arashnic/fitbit
+
+Screen Time Tracker
+
+A Flask application that helps users track and manage their screen time.
+Features
+
+    User registration and authentication
+    Screen time logging with work mode option
+    Health metrics tracking (weight, height, age)
+    Customized alerts based on screen time usage
+    Weekly insights with visualizations
+    Personalized recommendations based on usage patterns
+
+Setup Instructions
+
+    Clone the repository
+    Install required packages:
+
+    pip install flask matplotlib
+
+    Set up the database:
+
+    python database_setup.py
+
+    Run the application:
+
+    python app.py
+
+    Access the application at http://localhost:5000
+
+API Endpoints
+User Management
+
+    POST /register - Register a new user
+    POST /login - Login existing user
+
+Health Metrics
+
+    POST /health-metrics/<user_id> - Save health metrics
+    GET /health-metrics/<user_id> - Retrieve health metrics
+
+Screen Time
+
+    POST /log - Log screen time
+    GET /alerts/<user_id> - Get alerts based on today's screen time
+    GET /insights/<user_id> - Get weekly insights and recommendations
+
+Data Structure
+
+The application uses SQLite with three main tables:
+
+    users - Stores user credentials and basic information
+    health_metrics - Stores user health data
+    screen_time - Tracks daily screen time usage
+
+Security Notes
+
+    For production use, implement proper password hashing (e.g., bcrypt)
+    Add user session management
+    Implement CSRF protection
+    Use environment variables for secrets
+
