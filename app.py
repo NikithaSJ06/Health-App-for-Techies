@@ -70,12 +70,21 @@ def generate_insights(user_id):
     if data:
         weekly_avg = sum(row[0] for row in data) / len(data)
         if weekly_avg > 240:
-            insight = "Your weekly average exceeds 4 hours per day, increasing health risks."
-        elif weekly_avg > 120:
-            insight = "You spend over 2 hours daily on screen. Consider reducing screen exposure."
-        else:
-            insight = "Your screen time is within healthy limits. Keep it up!"
-        return jsonify({"insight": insight})
+    insight = ("📊 Your average screen time over the past week exceeds 4 hours per day.\n"
+               "😟 Prolonged screen exposure can lead to eye strain, disrupted sleep, and reduced productivity.\n"
+               "💡 Try the 20-20-20 rule: Every 20 minutes, look at something 20 feet away for 20 seconds.\n"
+               "🚶‍♀️ Take short breaks, stretch, and stay hydrated to stay healthy and refreshed.")
+
+elif weekly_avg > 120:
+    insight = ("📈 You're spending over 2 hours a day on screens, which is moderate but can still impact your well-being.\n"
+               "🧘‍♂️ Incorporate regular breaks and avoid screens during meals and before bedtime.\n"
+               "✅ You're doing okay — small changes like reducing non-essential screen time can go a long way!")
+
+else:
+    insight = ("🎉 Great job! Your average daily screen time is within healthy limits.\n"
+               "💚 This helps prevent eye fatigue, enhances focus, and improves sleep quality.\n"
+               "🙌 Keep up the good habits and continue balancing your digital and offline life!")
+
     else:
         return jsonify({"insight": "No data available."})
 
